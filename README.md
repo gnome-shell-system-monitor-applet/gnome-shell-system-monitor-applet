@@ -1,6 +1,6 @@
 ## GNOME Shell system monitor extension
 
-[![Build Status](https://img.shields.io/travis/paradoxxxzero/gnome-shell-system-monitor-applet.svg?branch=master)](https://travis-ci.org/paradoxxxzero/gnome-shell-system-monitor-applet)
+[![Build Status](https://travis-ci.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet.svg?branch=master)](https://travis-ci.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet)
 
 ![screenshot-small](http://i.imgur.com/ka9OA.png)
 
@@ -12,7 +12,7 @@
 
 #### Prerequisites
 
-This extension [requires GNOME Shell v3.26 or later](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet/blob/master/system-monitor%40paradoxxx.zero.gmail.com/metadata.json#L2).
+This extension [requires GNOME Shell v3.26 or later](https://github.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet/blob/master/system-monitor%40paradoxxx.zero.gmail.com/metadata.json#L2).
 
 Before installing this extension, ensure you have the necessary system packages installed:
 
@@ -77,7 +77,7 @@ Additionally, rebooting gnome-shell may help (type `Alt + F2` and input `r` in t
 
 #### Manual installation
 
-[Download the ZIP/Tarball](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet/releases),
+[Download the ZIP/Tarball](https://github.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet/releases),
 extract the archive, open a shell into its directory, and run:
 
     make install
@@ -88,7 +88,7 @@ Alternately, if you plan on doing development on the extension, or testing modif
     PROJECT_NAME=gnome-shell-system-monitor-applet
     mkdir $GIT_PROJECTS
     cd $GIT_PROJECTS
-    git clone git://github.com/paradoxxxzero/gnome-shell-system-monitor-applet.git $PROJECT_NAME
+    git clone git://github.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet.git $PROJECT_NAME
     mkdir -p ~/.local/share/gnome-shell/extensions
     cd ~/.local/share/gnome-shell/extensions
     { [ -d "./$PROJECT_NAME" ] || [ -L "./$PROJECT_NAME" ]; } && rm -Rf "./$PROJECT_NAME"
@@ -137,14 +137,14 @@ To determine the version number to use, check the extensions site and increment 
 
 The specified version number is just for documentation and isn't strictly necessary in the uploaded file, since the extensions website will dynamically set this and override whatever we enter.
 
-2. Once uploaded, [create a GitHub release](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet/releases) with the same version number.
+2. Once uploaded, [create a GitHub release](https://github.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet/releases) with the same version number.
 
 ### Authors
 
 [paradoxxxzero](https://github.com/paradoxxxzero)
 [yuyichao](https://github.com/yuyichao)
 [darkxst](https://github.com/darkxst)
-and [many contributors](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet/contributors)
+and [many contributors](https://github.com/gnome-shell-system-monitor-applet/gnome-shell-system-monitor-applet/contributors)
 
 ### License
 
